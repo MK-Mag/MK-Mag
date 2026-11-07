@@ -222,7 +222,7 @@ Currently paused; it may be revisited later.
 ## `09 / CONTACT`
 
 <p align="center">
-  Discord: <strong>exemag</strong>
+  <a href="https://discord.com">Discord: exemag</a>
   ·
   <a href="https://github.com/MK-Mag">
     <img src="https://img.shields.io/badge/GitHub-MK--Mag-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub MK-Mag" />
