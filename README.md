@@ -68,19 +68,9 @@ I learn by building: understanding the design, writing the important logic, debu
 
 ---
 
-## `03 / CURRENT PROJECT`
+## `03 / CURRENT FOCUS`
 
-### Project Jumper
-<sub><strong>IN PROGRESS · GO CLI</strong></sub>
-
-A command-line tool for saving project locations and quickly jumping between development folders—like having `/home` or `/warp` commands for your workspace.
-
-- Go CLI using **Cobra**.
-- Exploring embedded **libSQL / Turso** storage.
-- Commands include `pj add` and `pj jump`.
-- Learning focus: command structure, persistence, application flow, and maintainable CLI design.
-
-[View repository](https://github.com/MK-Mag/Project-Jumper)
+Currently focusing on strengthening my Go backend skills through practical projects, improving code quality, testing, and building software that is ready to share and use.
 
 ---
 
@@ -115,6 +105,19 @@ A collaborative drawing application with user authentication, rooms, and real-ti
 A terminal-based word guessing game built to practice Go fundamentals, input handling, slices, and repeated-letter evaluation.
 
 [View repository](https://github.com/MK-Mag/Wordle_Cli_game)
+
+### Project Jumper
+**Go · Cobra · Embedded libSQL / Turso**
+
+A Windows command-line tool for registering project directories under memorable names, listing and removing saved entries, and opening projects in a configurable IDE. Supports the `here` shortcut to register the current working directory.
+
+- `pj add <name> <path>` — register a project; use `here` for the current directory.
+- `pj list` — list saved projects.
+- `pj jump <name>` — open a saved project in the configured editor.
+- `pj config ide [name]` — view or change the editor command.
+- `pj remove <name>` — remove an entry without deleting its files.
+
+[View repository](https://github.com/MK-Mag/Project-Jumper)
 
 ---
 
