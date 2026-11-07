@@ -21,7 +21,7 @@
   ·
   <a href="https://github.com/MK-Mag?tab=repositories">Repositories</a>
   ·
-  <a href="https://discord.com">Discord: exemag</a>
+  Discord: <strong>exemag</strong>
 </p>
 
 ---
@@ -70,7 +70,12 @@ I learn by building: understanding the design, writing the important logic, debu
 
 ## `03 / CURRENT FOCUS`
 
-Currently focusing on strengthening my Go backend skills through practical projects, improving code quality, testing, and building software that is ready to share and use.
+### Process Detective
+**Go · Windows APIs · System Monitoring · Wails · Vue**
+
+A lightweight desktop system monitor for inspecting running processes, viewing CPU and memory usage, exploring parent-child process relationships, and investigating process details.
+
+The initial target is Windows. The goal is to understand process inspection and operating-system information through Go, while keeping the interface focused and lightweight.
 
 ---
 
@@ -150,11 +155,6 @@ A larger project exploring video-processing workflows and AI-assisted editing.
 
 A tool for exploring a codebase's history, structure, and evolution to uncover useful context about a repository.
 
-### Process Detective
-**Go · Operating Systems · Process Inspection**
-
-A system utility for inspecting running processes and understanding resource usage and process relationships.
-
 ### MockDock
 **Go · HTTP · API Testing**
 
@@ -222,11 +222,10 @@ Currently paused; it may be revisited later.
 ## `09 / CONTACT`
 
 <p align="center">
-  <a href="https://discord.com">
-    <img src="https://img.shields.io/badge/Discord-exemag-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord exemag" />
-  </a>
+  Discord: <strong>exemag</strong>
+  ·
   <a href="https://github.com/MK-Mag">
-    <img src="https://img.shields.io/badge/GitHub-MK-Mag-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub MK-Mag" />
+    <img src="https://img.shields.io/badge/GitHub-MK--Mag-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub MK-Mag" />
   </a>
 </p>
 
