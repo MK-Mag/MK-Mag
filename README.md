@@ -155,6 +155,11 @@ A tool for exploring a codebase's history, structure, and evolution to uncover u
 
 A system utility for inspecting running processes and understanding resource usage and process relationships.
 
+### MockDock
+**Go · HTTP · API Testing**
+
+A lightweight mock HTTP server for developers. Create configurable endpoints, define status codes and JSON responses, simulate latency, and inspect incoming requests. Planned as a small-to-medium project, not a current project.
+
 ### Command Vault
 **Go · CLI · Local Storage**
 
