@@ -1,12 +1,12 @@
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/hero?username=MK-Mag&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F169182732%3Fv%3D4" alt="MK-Mag — Go Developer" />
+  <img src="https://www.gitskins.com/api/section/hero?username=MK-Mag&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F169182732%3Fv%3D4" alt="MK-Mag — Backend Developer" />
 </p>
 
 <h1 align="center">MK-Mag</h1>
 
 <p align="center">
-  <strong>Go Developer · CLI Tools · Desktop Applications · Systems</strong><br/>
-  <sub>Building useful software, learning by making things, and enjoying the process.</sub>
+  <strong>Backend Developer · Go · Systems &amp; Developer Tools</strong><br/>
+  <sub>Building backend-focused software while exploring systems, CLI tools, and desktop applications.</sub>
 </p>
 
 <p align="center">
@@ -33,8 +33,8 @@ $ whoami
 MK-Mag
 
 $ interests
-Go · CLI Development · Desktop Software
-Systems · Networking · Developer Tools
+Go Backend Development · APIs · Databases
+Systems · Networking · CLI & Desktop Tools
 Automation · Practical AI
 
 $ philosophy
@@ -43,7 +43,7 @@ Understand how it works.
 Enjoy making it better.
 ```
 
-I'm a Go-focused developer who enjoys building command-line tools and desktop applications. I like software that has a clear purpose: tools I can use, problems I can solve, or ideas that are simply fun to bring to life.
+I'm focused on Go backend development, building reliable services and practical software. I also enjoy creating command-line tools and desktop applications when they solve a real problem or are simply worth building.
 
 I learn by building, experimenting, debugging, and improving real projects. The goal is not to collect technologies or make throwaway demos—it's to create software that I actually care about.
 
@@ -213,5 +213,5 @@ Currently paused. I may return to it if I feel like exploring the idea again.
 
 <p align="center">
   <strong>BUILD → DEBUG → UNDERSTAND → IMPROVE</strong><br/>
-  <sub>Go · CLI Tools · Desktop Applications · Systems</sub>
+  <sub>Backend Development · Go · Systems &amp; Developer Tools</sub>
 </p>
