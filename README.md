@@ -1,18 +1,18 @@
 <p align="center">
-  <img src="https://www.gitskins.com/api/section/hero?username=MK-Mag&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F169182732%3Fv%3D4" alt="MK-Mag — Backend Developer" />
+  <img src="https://www.gitskins.com/api/section/hero?username=MK-Mag&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F169182732%3Fv%3D4" alt="MK-Mag — Go Developer" />
 </p>
 
 <h1 align="center">MK-Mag</h1>
 
 <p align="center">
-  <strong>Backend Developer · Go · Systems & Developer Tools</strong><br/>
-  <sub>Building practical software, understanding how it works, and improving one project at a time.</sub>
+  <strong>Go Developer · CLI Tools · Desktop Applications · Systems</strong><br/>
+  <sub>Building useful software, learning by making things, and enjoying the process.</sub>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/GO-Primary-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/BACKEND-Engineering-0B1F33?style=for-the-badge&logo=serverfault&logoColor=38BDF8" alt="Backend" />
-  <img src="https://img.shields.io/badge/SYSTEMS-Curious-111111?style=for-the-badge&logo=linux&logoColor=38BDF8" alt="Systems" />
+  <img src="https://img.shields.io/badge/CLI-TOOLS-0B1F33?style=for-the-badge&logo=windowsterminal&logoColor=38BDF8" alt="CLI tools" />
+  <img src="https://img.shields.io/badge/DESKTOP-APPS-111111?style=for-the-badge&logo=windows&logoColor=38BDF8" alt="Desktop applications" />
   <img src="https://img.shields.io/badge/BUILD-DEBUG-FF3030?style=for-the-badge&logo=github&logoColor=white" alt="Build and debug" />
 </p>
 
@@ -32,77 +32,79 @@
 $ whoami
 MK-Mag
 
-$ focus
-Backend Engineering
-Go · APIs · Databases
+$ interests
+Go · CLI Development · Desktop Software
 Systems · Networking · Developer Tools
 Automation · Practical AI
 
-$ objective
-Become an independent backend engineer:
-design it, build it, debug it, understand it.
+$ philosophy
+Build something useful.
+Understand how it works.
+Enjoy making it better.
 ```
 
-I'm focused on becoming a strong backend engineer, with **Go as my primary language**. I enjoy building command-line tools, backend services, database-driven applications, and projects that explore how software works under the hood.
+I'm a Go-focused developer who enjoys building command-line tools and desktop applications. I like software that has a clear purpose: tools I can use, problems I can solve, or ideas that are simply fun to bring to life.
 
-I learn by building: understanding the design, writing the important logic, debugging real problems, and improving the implementation—not just making something run.
+I learn by building, experimenting, debugging, and improving real projects. The goal is not to collect technologies or make throwaway demos—it's to create software that I actually care about.
 
 ---
 
 ## `02 / TECH STACK`
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=go,python,postgres,sqlite,git,github,linux,docker,vscode&theme=dark" alt="Technologies and tools" />
+  <img src="https://skillicons.dev/icons?i=go,python,postgres,sqlite,git,github,windows,linux,vscode&theme=dark" alt="Technologies and tools" />
 </p>
 
-| Area | Current tools and focus |
+| Area | Tools and interests |
 |---|---|
 | Primary language | **Go** |
 | Also use | Python |
-| Backend | HTTP, REST APIs, CLI development |
-| Databases | SQL, PostgreSQL, SQLite / libSQL |
-| Go ecosystem | Cobra, Bubble Tea, Gin, Echo |
+| Application types | CLI tools, desktop applications, backend services |
+| Databases | SQL, SQLite / libSQL, PostgreSQL |
+| Go ecosystem | Cobra, Bubble Tea, giu, Wails |
 | Workflow | Git, GitHub, VS Code |
 
-<sub>Technologies reflect my current experience and learning path, not a claim of expert-level proficiency in every tool.</sub>
+<sub>This reflects my current tools and learning path, not expert-level proficiency in every technology.</sub>
 
 ---
 
 ## `03 / CURRENT FOCUS`
 
-### Process Detective
-**Go · Windows APIs · System Monitoring · Wails · Vue**
+### Forge CLI
+**Go · Cobra · Project Scaffolding**
 
-A lightweight desktop system monitor for inspecting running processes, viewing CPU and memory usage, exploring parent-child process relationships, and investigating process details.
-
-The initial target is Windows. The goal is to understand process inspection and operating-system information through Go, while keeping the interface focused and lightweight.
+A command-line tool for creating new projects from reusable templates. The aim is to make starting a project quicker and more consistent, while exploring command design, terminal UX, and filesystem operations.
 
 ---
 
 ## `04 / COMPLETED PROJECTS`
 
-Projects that have reached a working completion point. These include learning projects and are not all intended to be production-grade software.
+### Project Jumper
+**Go · Cobra · Embedded libSQL**
 
-### GitHub Finder
-**Go · Wails · Vue**
+A command-line launcher for saving project directories under memorable names and opening them in a configured editor. Built to make switching between development projects quicker.
 
-A desktop application that looks up GitHub users and displays their repositories and programming-language information.
-
-[View repository](https://github.com/MK-Mag/GitHub-Finder)
+[View repository](https://github.com/MK-Mag/Project-Jumper)
 
 ### Organizer
 **Go · Gio · fsnotify**
 
-A desktop file organizer that watches selected folders and sorts files by extension, with configurable rules and practical file-management features.
+A desktop file organizer that watches selected folders and sorts files using configurable rules. Includes practical safeguards and file-management features to make everyday folder cleanup easier.
 
 [View repository](https://github.com/MK-Mag/Orginzer)
 
-### Multiplayer Whiteboard
-**Go · WebSockets · Vue · SQLite**
+### GitHub Finder
+**Go · Wails · Vue**
 
-A collaborative drawing application with user authentication, rooms, and real-time drawing updates.
+A desktop application for looking up GitHub users and exploring their repositories and programming-language information in a visual interface.
 
-[View repository](https://github.com/MK-Mag/Multiplayer-WhiteBored)
+[View repository](https://github.com/MK-Mag/GitHub-Finder)
+
+---
+
+## `05 / OTHER BUILDS`
+
+Smaller learning projects and experiments. They're part of the journey, but I don't present every experiment as a finished product.
 
 ### Wordle CLI
 **Go · Terminal**
@@ -111,87 +113,53 @@ A terminal-based word guessing game built to practice Go fundamentals, input han
 
 [View repository](https://github.com/MK-Mag/Wordle_Cli_game)
 
-### Project Jumper
-**Go · Cobra · Embedded libSQL / Turso**
+### Multiplayer Whiteboard
+**Go · WebSockets · Vue · SQLite**
 
-A Windows command-line tool for registering project directories under memorable names, listing and removing saved entries, and opening projects in a configurable IDE. Supports the `here` shortcut to register the current working directory.
+An early collaborative drawing prototype exploring real-time communication, rooms, and authentication. Discontinued before reaching a complete, tested release.
 
-- `pj add <name> <path>` — register a project; use `here` for the current directory.
-- `pj list` — list saved projects.
-- `pj jump <name>` — open a saved project in the configured editor.
-- `pj config ide [name]` — view or change the editor command.
-- `pj remove <name>` — remove an entry without deleting its files.
-
-[View repository](https://github.com/MK-Mag/Project-Jumper)
+[View repository](https://github.com/MK-Mag/Multiplayer-WhiteBored)
 
 ---
 
-## `05 / PLANNED PROJECTS`
+## `06 / NEXT PROJECTS & IDEAS`
 
-Ideas in my longer-term development roadmap. This is a direction, not a promise that every project is currently underway.
+I choose projects because I want the software to exist—not just because a technology looks good on a résumé.
 
-### Forge CLI
-**Go · Cobra · Bubble Tea**
+### Process Detective
+**Go · giu · gopsutil · Windows**
 
-A project scaffolding CLI that creates new projects from reusable templates. Focus: command design, terminal UX, filesystem operations, and clean Go architecture.
+A lightweight desktop system monitor for exploring running processes, CPU and memory usage, and parent-child relationships. A practical way to understand what is happening on my own machine.
 
-### RAG AI Assistant
-**Go · LLM APIs · Retrieval**
+### Where Space Went
+**Go · Filesystem · CLI**
 
-A practical retrieval-augmented assistant that searches a knowledge source and uses relevant context to answer questions.
+A disk-usage analyzer that helps answer a simple question: where did my storage space go? It should make large folders and space usage easy to discover.
 
-### Personal Cloud
-**Go · Backend · Storage · Networking**
+### Command Ghost
+**Go · CLI · Shell History**
 
-A personal file-storage service exploring uploads, downloads, authentication, metadata, and the foundations of cloud storage.
-
-### AI Video Editor
-**Go · Media Processing · AI APIs**
-
-A larger project exploring video-processing workflows and AI-assisted editing.
-
-### Repo Archaeologist
-**Go · Git · Repository Analysis**
-
-A tool for exploring a codebase's history, structure, and evolution to uncover useful context about a repository.
+A command-history search and recovery tool for finding commands I've used before, especially when I can't remember the exact syntax.
 
 ### MockDock
-**Go · HTTP · API Testing**
+**Go · HTTP · Developer Tools**
 
-A lightweight mock HTTP server for developers. Create configurable endpoints, define status codes and JSON responses, simulate latency, and inspect incoming requests. Planned as a small-to-medium project, not a current project.
+A local mock HTTP server for testing applications without depending on a real external API. Configure endpoints and responses, simulate latency, and inspect incoming requests.
 
-### Command Vault
-**Go · CLI · Local Storage**
+### Personal Cloud
+**Go · Storage · Networking**
 
-A searchable personal vault for useful terminal commands, snippets, and notes.
+A personal file-storage application for keeping and accessing my own files across devices.
 
-### Clipboard Memory
-**Go · System Integration · Search**
+### Longer-term ideas
 
-A clipboard-history utility for keeping and searching previously copied text.
-
-### Commit Pet
-**Go · Git · Automation**
-
-A small companion that reacts to Git activity and turns commits and development progress into a playful feedback loop.
-
-### Memory Palace
-**Go · Search · Local Data**
-
-A personal knowledge tool for storing, organizing, and retrieving notes and useful information.
-
----
-
-## `06 / MAYBE — EXPERIMENTS & IDEAS`
-
-Interesting ideas that may become experiments later. They are not active commitments.
-
-- **Where Space Went** — a filesystem disk-usage analyzer that helps explain where storage is being used.
-- **Command Ghost** — search terminal history and recover commands used in the past.
-- **Webhook Replay Engine** — a Go + PostgreSQL experiment for storing, retrying, and replaying webhook deliveries. Archive after the experiment.
-- **DB Benchmark Lab** — compare database operations, query patterns, indexes, and performance trade-offs.
-- **Name Goblin** — a small name-generation tool for project names and identifiers.
-- **Dead Drop** — a small privacy-minded file or message handoff experiment.
+- **Repo Archaeologist** — explore a repository's structure and Git history to understand how it evolved.
+- **Command Vault** — save, organize, and search useful terminal commands and snippets.
+- **Clipboard Memory** — search through previously copied text.
+- **Memory Palace** — a personal tool for organizing and retrieving knowledge.
+- **Commit Pet** — a playful companion that reacts to Git activity.
+- **RAG AI Assistant** — search personal knowledge and answer questions using relevant context.
+- **AI Video Editor** — explore practical video-processing and AI-assisted editing.
 
 ---
 
@@ -202,19 +170,19 @@ Interesting ideas that may become experiments later. They are not active commitm
 
 A group game-voting desktop app concept: users sign in with Steam, vote on games, and launch the winning choice.
 
-Currently paused; it may be revisited later.
+Currently paused. I may return to it if I feel like exploring the idea again.
 
 ---
 
 ## `08 / HOW I BUILD`
 
 ```text
-[01] Understand the problem before choosing abstractions.
-[02] Build a working core before adding complexity.
-[03] Write and understand the important logic myself.
-[04] Debug to find the cause, not just hide the symptom.
-[05] Prefer useful, maintainable tools over unnecessary complexity.
-[06] Keep learning by building real things.
+[01] Start with a real problem or an idea worth exploring.
+[02] Keep the first version focused and useful.
+[03] Understand and write the important logic myself.
+[04] Debug the cause instead of hiding the symptom.
+[05] Avoid complexity that doesn't improve the software.
+[06] Build because I enjoy making things.
 ```
 
 ---
@@ -245,5 +213,5 @@ Currently paused; it may be revisited later.
 
 <p align="center">
   <strong>BUILD → DEBUG → UNDERSTAND → IMPROVE</strong><br/>
-  <sub>Go · Backend Engineering · Systems · Developer Tools</sub>
+  <sub>Go · CLI Tools · Desktop Applications · Systems</sub>
 </p>
