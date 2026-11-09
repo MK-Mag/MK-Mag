@@ -70,10 +70,10 @@ I learn by building, experimenting, debugging, and improving real projects. The 
 
 ## `03 / CURRENT FOCUS`
 
-### Forge CLI
-**Go · Cobra · Project Scaffolding**
+### Process Detective
+**Go · giu · gopsutil · Desktop Application**
 
-A command-line tool for creating new projects from reusable templates. The aim is to make starting a project quicker and more consistent, while exploring command design, terminal UX, and filesystem operations.
+A lightweight desktop system monitor for exploring running processes, CPU and memory usage, and parent-child relationships. Built to make it easier to understand what's happening on my own machine, with Windows support first and Linux support planned.
 
 ---
 
@@ -125,11 +125,6 @@ An early collaborative drawing prototype exploring real-time communication, room
 ## `06 / NEXT PROJECTS & IDEAS`
 
 I choose projects because I want the software to exist—not just because a technology looks good on a résumé.
-
-### Process Detective
-**Go · giu · gopsutil · Windows**
-
-A lightweight desktop system monitor for exploring running processes, CPU and memory usage, and parent-child relationships. A practical way to understand what is happening on my own machine.
 
 ### Where Space Went
 **Go · Filesystem · CLI**
