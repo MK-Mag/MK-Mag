@@ -49,7 +49,7 @@ I prefer building software that solves real problems and remains useful after it
 
 ## CURRENTLY BUILDING
 
-### [Process Detective](https://github.com/MK-Mag/Process-Detective)
+### Process Detective
 **Go · giu · gopsutil · Windows Desktop**
 
 A lightweight Windows-first desktop system monitor for exploring running processes, CPU and memory usage, and parent-child relationships. Linux support is planned.
