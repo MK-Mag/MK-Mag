@@ -5,15 +5,14 @@
 <h1 align="center">MK-Mag</h1>
 
 <p align="center">
-  <strong>Backend Developer · Go · Systems &amp; Developer Tools</strong><br/>
-  <sub>Building backend-focused software while exploring systems, CLI tools, and desktop applications.</sub>
+  <strong>Go Backend Developer · Systems · Practical Software</strong><br/>
+  <sub>Building useful software, learning by understanding how things work, and improving products I actually want to use.</sub>
 </p>
 
 <p align="center">
   <img src="https://img.shields.io/badge/GO-Primary-00ADD8?style=for-the-badge&logo=go&logoColor=white" alt="Go" />
-  <img src="https://img.shields.io/badge/CLI-TOOLS-0B1F33?style=for-the-badge&logo=windowsterminal&logoColor=38BDF8" alt="CLI tools" />
-  <img src="https://img.shields.io/badge/DESKTOP-APPS-111111?style=for-the-badge&logo=windows&logoColor=38BDF8" alt="Desktop applications" />
-  <img src="https://img.shields.io/badge/BUILD-DEBUG-FF3030?style=for-the-badge&logo=github&logoColor=white" alt="Build and debug" />
+  <img src="https://img.shields.io/badge/BACKEND-APIs-0B1F33?style=for-the-badge&logo=windowsterminal&logoColor=38BDF8" alt="Backend" />
+  <img src="https://img.shields.io/badge/SYSTEMS-TOOLS-111111?style=for-the-badge&logo=windows&logoColor=38BDF8" alt="Systems and tools" />
 </p>
 
 <p align="center">
@@ -21,192 +20,108 @@
   ·
   <a href="https://github.com/MK-Mag?tab=repositories">Repositories</a>
   ·
-  Discord: <strong>exemag</strong>
+  <a href="https://github.com/MK-Mag/MK-Mag/blob/main/MK-Mag-Projects.md">Full Project Roadmap</a>
 </p>
 
 ---
 
-## `01 / ABOUT`
+## 01 / ABOUT
 
-```text
-$ whoami
-MK-Mag
+I'm focused on **Go backend development**, with a strong interest in systems, databases, networking, automation, and practical AI.
 
-$ interests
-Go Backend Development · APIs · Databases
-Systems · Networking · CLI & Desktop Tools
-Automation · Practical AI
+I prefer building software that solves a real problem and remains useful after the first release. I enjoy the engineering behind a product just as much as the product itself: understanding the design, debugging the hard parts, and adding capabilities because real use calls for them.
 
-$ philosophy
-Build something useful.
-Understand how it works.
-Enjoy making it better.
-```
+My current direction is backend and software engineering, supported by experience building CLI tools and desktop applications.
 
-I'm focused on Go backend development, building reliable services and practical software. I also enjoy creating command-line tools and desktop applications when they solve a real problem or are simply worth building.
-
-I learn by building, experimenting, debugging, and improving real projects. The goal is not to collect technologies or make throwaway demos—it's to create software that I actually care about.
-
----
-
-## `02 / TECH STACK`
-
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=go,python,postgres,sqlite,git,github,windows,linux,vscode&theme=dark" alt="Technologies and tools" />
-</p>
+## 02 / TECH STACK
 
 | Area | Tools and interests |
 |---|---|
 | Primary language | **Go** |
 | Also use | Python |
-| Application types | CLI tools, desktop applications, backend services |
-| Databases | SQL, SQLite / libSQL, PostgreSQL |
-| Go ecosystem | Cobra, Bubble Tea, giu, Wails |
-| Workflow | Git, GitHub, VS Code |
+| Backend | HTTP APIs, services, concurrency, automation |
+| Databases | SQL, SQLite / libSQL / Turso, PostgreSQL |
+| Application types | Backend services, CLI tools, desktop software |
+| AI | Gemini API, embeddings, lightweight RAG |
+| Workflow | Git, GitHub, Windows, Linux |
 
 <sub>This reflects my current tools and learning path, not expert-level proficiency in every technology.</sub>
 
 ---
 
-## `03 / CURRENT FOCUS`
+## 03 / CURRENTLY BUILDING
 
 ### Process Detective
-**Go · giu · gopsutil · Desktop Application**
+**Go · giu · gopsutil · Windows Desktop**
 
-A lightweight desktop system monitor for exploring running processes, CPU and memory usage, and parent-child relationships. Built to make it easier to understand what's happening on my own machine, with Windows support first and Linux support planned.
+A lightweight desktop system monitor for exploring running processes, CPU and memory usage, and parent-child relationships. Windows first, with Linux support planned.
+
+The goal is to understand what is happening on my own machine through a focused, responsive native-feeling tool.
 
 ---
 
-## `04 / COMPLETED PROJECTS`
+## 04 / COMPLETED PROJECTS
 
-### Project Jumper
-**Go · Cobra · Embedded libSQL**
+### [Project Jumper](https://github.com/MK-Mag/Project-Jumper)
+**Go · Cobra · Embedded Turso**
 
 A command-line launcher for saving project directories under memorable names and opening them in a configured editor. Built to make switching between development projects quicker.
 
-[View repository](https://github.com/MK-Mag/Project-Jumper)
-
-### Organizer
+### [Organizer](https://github.com/MK-Mag/Orginzer)
 **Go · Gio · fsnotify**
 
-A desktop file organizer that watches selected folders and sorts files using configurable rules. Includes practical safeguards and file-management features to make everyday folder cleanup easier.
+A desktop file organizer that watches selected folders and sorts files using configurable rules, with practical safeguards for everyday file management.
 
-[View repository](https://github.com/MK-Mag/Orginzer)
-
-### GitHub Finder
+### [GitHub Finder](https://github.com/MK-Mag/GitHub-Finder)
 **Go · Wails · Vue**
 
 A desktop application for looking up GitHub users and exploring their repositories and programming-language information in a visual interface.
 
-[View repository](https://github.com/MK-Mag/GitHub-Finder)
+---
+
+## 05 / SELECTED NEXT PROJECTS
+
+These are ideas I may build after the current project. They are selected for practical value, interesting engineering, and a reason to keep using them—not just as portfolio demos.
+
+- **YouTube Companion** — turn videos and available transcripts into a searchable research library, with source-grounded AI Q&A.
+- **FileSense** — a local document intelligence tool for semantic search and asking questions across personal files.
+- **Bug Diary** — an automated debugging and incident-intelligence system that captures crashes, errors, logs, and context in the background, correlates recurring failures, and uses AI to investigate likely causes.
+- **Release Radar** — monitor software and dependency releases, explain relevant changes, and flag potential breaking changes.
+- **Device Sync Hub** — a Go service for syncing data and events across personal devices; planned for when I have more than one device.
+
+[See the complete project inventory and roadmap →](https://github.com/MK-Mag/MK-Mag/blob/main/MK-Mag-Projects.md)
 
 ---
 
-## `05 / OTHER BUILDS`
+## 06 / SMALLER BUILDS
 
-Smaller learning projects and experiments. They're part of the journey, but I don't present every experiment as a finished product.
-
-### Wordle CLI
+### [Wordle CLI](https://github.com/MK-Mag/Wordle_Cli_game)
 **Go · Terminal**
 
-A terminal-based word guessing game built to practice Go fundamentals, input handling, slices, and repeated-letter evaluation.
-
-[View repository](https://github.com/MK-Mag/Wordle_Cli_game)
-
-### Multiplayer Whiteboard
-**Go · WebSockets · Vue · SQLite**
-
-An early collaborative drawing prototype exploring real-time communication, rooms, and authentication. Discontinued before reaching a complete, tested release.
-
-[View repository](https://github.com/MK-Mag/Multiplayer-WhiteBored)
+A small terminal word-guessing game built to practice Go fundamentals and input handling.
 
 ---
 
-## `06 / NEXT PROJECTS & IDEAS`
+## 07 / PROJECT PRINCIPLES
 
-I choose projects because I want the software to exist—not just because a technology looks good on a résumé.
+A project should pass five tests before it earns a place on my roadmap:
 
-### Where Space Went
-**Go · Filesystem · CLI**
+1. **Utility** — Does it solve a real problem?
+2. **Long-term use** — Why would I open it again six months after finishing it?
+3. **Originality** — Is there a distinctive idea beyond a generic CRUD app or AI wrapper?
+4. **Engineering** — Will it teach meaningful software or systems concepts?
+5. **Growth** — Can real use naturally lead to worthwhile improvements?
 
-A disk-usage analyzer that helps answer a simple question: where did my storage space go? It should make large folders and space usage easy to discover.
-
-### Command Ghost
-**Go · CLI · Shell History**
-
-A command-history search and recovery tool for finding commands I've used before, especially when I can't remember the exact syntax.
-
-### MockDock
-**Go · HTTP · Developer Tools**
-
-A local mock HTTP server for testing applications without depending on a real external API. Configure endpoints and responses, simulate latency, and inspect incoming requests.
-
-### Personal Cloud
-**Go · Storage · Networking**
-
-A personal file-storage application for keeping and accessing my own files across devices.
-
-### Longer-term ideas
-
-- **Repo Archaeologist** — explore a repository's structure and Git history to understand how it evolved.
-- **Command Vault** — save, organize, and search useful terminal commands and snippets.
-- **Clipboard Memory** — search through previously copied text.
-- **Memory Palace** — a personal tool for organizing and retrieving knowledge.
-- **Commit Pet** — a playful companion that reacts to Git activity.
-- **RAG AI Assistant** — search personal knowledge and answer questions using relevant context.
-- **AI Video Editor** — explore practical video-processing and AI-assisted editing.
+I would rather build fewer products that stay useful than collect unfinished demos.
 
 ---
 
-## `07 / PAUSED`
+## 08 / OTHER
 
-### Steam Judge
-**Flet · Steam OpenID · Go API**
-
-A group game-voting desktop app concept: users sign in with Steam, vote on games, and launch the winning choice.
-
-Currently paused. I may return to it if I feel like exploring the idea again.
-
----
-
-## `08 / HOW I BUILD`
-
-```text
-[01] Start with a real problem or an idea worth exploring.
-[02] Keep the first version focused and useful.
-[03] Understand and write the important logic myself.
-[04] Debug the cause instead of hiding the symptom.
-[05] Avoid complexity that doesn't improve the software.
-[06] Build because I enjoy making things.
-```
-
----
-
-## `09 / CONTACT`
-
-<p align="center">
-  <a href="https://discord.com">Discord: exemag</a>
-  ·
-  <a href="https://github.com/MK-Mag">
-    <img src="https://img.shields.io/badge/GitHub-MK--Mag-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub MK-Mag" />
-  </a>
-</p>
-
----
-
-## `10 / GITHUB ACTIVITY`
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/stats?username=MK-Mag&theme=neon&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F169182732%3Fv%3D4" alt="GitHub statistics" />
-</p>
-
-<p align="center">
-  <img src="https://www.gitskins.com/api/section/heatmap?username=MK-Mag&theme=neon" alt="GitHub contribution activity" />
-</p>
-
----
+- [Full project inventory, including completed, active, future, paused, and retired ideas](https://github.com/MK-Mag/MK-Mag/blob/main/MK-Mag-Projects.md)
+- Discord: **exemag**
 
 <p align="center">
   <strong>BUILD → DEBUG → UNDERSTAND → IMPROVE</strong><br/>
-  <sub>Backend Development · Go · Systems &amp; Developer Tools</sub>
+  <sub>Go Backend Development · Systems · Practical Software</sub>
 </p>
