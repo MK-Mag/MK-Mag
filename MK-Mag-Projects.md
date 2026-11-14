@@ -125,6 +125,14 @@ A group game-voting concept where friends vote on games and launch the winner. N
 An early collaborative drawing prototype exploring real-time communication, rooms, and authentication. Not continuing.  
 Repository: https://github.com/MK-Mag/Multiplayer-WhiteBored
 
+### Forge CLI
+**Status:** Retired / not currently pursuing  
+A Go project generator that was considered with templates and preset stacks. It was later rejected as the next project in favor of building products with a more compelling ongoing use case.
+
+### Generic RAG AI Assistant
+**Status:** Superseded by more focused AI projects  
+An earlier concept for a general assistant that answers questions over personal files using retrieval and source-linked responses. The idea has since been split into more concrete products, especially YouTube Companion and FileSense, rather than kept as a separate generic assistant.
+
 ## Explicitly dropped concepts
 
 These were considered during brainstorming but rejected or canceled. They are not part of the roadmap:
