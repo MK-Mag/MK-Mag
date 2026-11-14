@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Go Backend Developer · Systems · Practical Software</strong><br/>
-  <sub>Building useful software, learning by understanding how things work, and improving products I actually want to use.</sub>
+  <sub>Building useful software, learning how things work, and improving products I actually use.</sub>
 </p>
 
 <p align="center">
@@ -20,20 +20,18 @@
   ·
   <a href="https://github.com/MK-Mag?tab=repositories">Repositories</a>
   ·
-  <a href="https://github.com/MK-Mag/MK-Mag/blob/main/MK-Mag-Projects.md">Full Project Roadmap</a>
+  <a href="https://github.com/MK-Mag/MK-Mag/blob/main/MK-Mag-Projects.md">Complete Project List</a>
 </p>
 
 ---
 
-## 01 / ABOUT
+## ABOUT
 
-I'm focused on **Go backend development**, with a strong interest in systems, databases, networking, automation, and practical AI.
+I'm focused on **Go backend development**, with interests in systems, databases, networking, automation, and practical AI.
 
-I prefer building software that solves a real problem and remains useful after the first release. I enjoy the engineering behind a product just as much as the product itself: understanding the design, debugging the hard parts, and adding capabilities because real use calls for them.
+I prefer building software that solves real problems and remains useful after its first release. I care about the engineering behind a product: understanding its design, debugging difficult behavior, and adding capabilities because real use calls for them.
 
-My current direction is backend and software engineering, supported by experience building CLI tools and desktop applications.
-
-## 02 / TECH STACK
+## TECH STACK
 
 | Area | Tools and interests |
 |---|---|
@@ -49,79 +47,89 @@ My current direction is backend and software engineering, supported by experienc
 
 ---
 
-## 03 / CURRENTLY BUILDING
+## CURRENTLY BUILDING
 
-### Process Detective
+### [Process Detective](https://github.com/MK-Mag/Process-Detective)
 **Go · giu · gopsutil · Windows Desktop**
 
-A lightweight desktop system monitor for exploring running processes, CPU and memory usage, and parent-child relationships. Windows first, with Linux support planned.
+A lightweight Windows-first desktop system monitor for exploring running processes, CPU and memory usage, and parent-child relationships. Linux support is planned.
 
-The goal is to understand what is happening on my own machine through a focused, responsive native-feeling tool.
+The goal is to understand what is happening on my own machine through a focused, responsive tool.
 
 ---
 
-## 04 / COMPLETED PROJECTS
+## COMPLETED PROJECTS
 
 ### [Project Jumper](https://github.com/MK-Mag/Project-Jumper)
 **Go · Cobra · Embedded Turso**
 
-A command-line launcher for saving project directories under memorable names and opening them in a configured editor. Built to make switching between development projects quicker.
+A CLI launcher for saving project directories under memorable names and opening them in a configured editor.
 
 ### [Organizer](https://github.com/MK-Mag/Orginzer)
 **Go · Gio · fsnotify**
 
-A desktop file organizer that watches selected folders and sorts files using configurable rules, with practical safeguards for everyday file management.
+A desktop file organizer that watches selected folders and sorts files using configurable rules.
 
 ### [GitHub Finder](https://github.com/MK-Mag/GitHub-Finder)
 **Go · Wails · Vue**
 
-A desktop application for looking up GitHub users and exploring their repositories and programming-language information in a visual interface.
-
----
-
-## 05 / SELECTED NEXT PROJECTS
-
-These are ideas I may build after the current project. They are selected for practical value, interesting engineering, and a reason to keep using them—not just as portfolio demos.
-
-- **YouTube Companion** — turn videos and available transcripts into a searchable research library, with source-grounded AI Q&A.
-- **FileSense** — a local document intelligence tool for semantic search and asking questions across personal files.
-- **Bug Diary** — an automated debugging and incident-intelligence system that captures crashes, errors, logs, and context in the background, correlates recurring failures, and uses AI to investigate likely causes.
-- **Release Radar** — monitor software and dependency releases, explain relevant changes, and flag potential breaking changes.
-- **Device Sync Hub** — a Go service for syncing data and events across personal devices; planned for when I have more than one device.
-
-[See the complete project inventory and roadmap →](https://github.com/MK-Mag/MK-Mag/blob/main/MK-Mag-Projects.md)
-
----
-
-## 06 / SMALLER BUILDS
+A desktop application for looking up GitHub users and exploring their repositories and programming-language information.
 
 ### [Wordle CLI](https://github.com/MK-Mag/Wordle_Cli_game)
 **Go · Terminal**
 
-A small terminal word-guessing game built to practice Go fundamentals and input handling.
+A terminal word-guessing game built to practice Go fundamentals and input handling.
 
 ---
 
-## 07 / PROJECT PRINCIPLES
+## SELECTED NEXT PROJECTS
 
-A project should pass five tests before it earns a place on my roadmap:
+These are planned candidates, not active work. Process Detective remains the current focus.
+
+### YouTube Companion
+**Go · Turso · YouTube Data API · Gemini · RAG**
+
+Turn videos and available transcripts into a searchable research library, with summaries, comparisons, learning checks, and source-grounded AI questions.
+
+### FileSense
+**Go · Turso · Embeddings · RAG**
+
+A local document-intelligence tool for indexing personal files, semantic search, and answers grounded in the original documents.
+
+### Bug Diary — Automated Incident Intelligence
+**Go · System Monitoring · Logs · Turso · Gemini**
+
+An automated debugging investigator that captures crashes, errors, logs, and environment context; correlates recurring incidents; and uses AI to investigate likely causes and connect failures to previous evidence and fixes.
+
+### Release Radar
+**Go · GitHub API · Background Workers · Turso · Gemini**
+
+Track software and dependency releases, explain relevant changes, and flag possible breaking changes based on the tools and projects I follow.
+
+### Device Sync Hub
+**Go · Backend APIs · Data Synchronization**
+
+A personal backend for syncing selected data, events, and device status across Windows, Linux, and future Raspberry Pi devices. Planned for when I have more than one device.
+
+---
+
+## PROJECT STANDARD
+
+Every project should pass five tests:
 
 1. **Utility** — Does it solve a real problem?
 2. **Long-term use** — Why would I open it again six months after finishing it?
-3. **Originality** — Is there a distinctive idea beyond a generic CRUD app or AI wrapper?
+3. **Originality** — Is there a distinctive idea beyond generic CRUD or an AI wrapper?
 4. **Engineering** — Will it teach meaningful software or systems concepts?
 5. **Growth** — Can real use naturally lead to worthwhile improvements?
 
-I would rather build fewer products that stay useful than collect unfinished demos.
+I would rather build fewer products that stay useful than collect disposable demos.
 
 ---
 
-## 08 / OTHER
-
-- [Full project inventory, including completed, active, future, paused, and retired ideas](https://github.com/MK-Mag/MK-Mag/blob/main/MK-Mag-Projects.md)
-- Discord: **exemag**
-
 <p align="center">
+  <a href="https://github.com/MK-Mag/MK-Mag/blob/main/MK-Mag-Projects.md">View the complete project inventory and ideas</a>
+  <br/><br/>
   <strong>BUILD → DEBUG → UNDERSTAND → IMPROVE</strong><br/>
   <sub>Go Backend Development · Systems · Practical Software</sub>
 </p>
