@@ -29,7 +29,7 @@
 
 I'm focused on **Go backend development**, with interests in systems, databases, networking, automation, and practical AI.
 
-I prefer building software that solves real problems and remains useful after its first release. I care about the engineering behind a product: understanding its design, debugging difficult behavior, and adding capabilities because real use calls for them.
+I prefer building software that solves real problems and remains useful after its first release. I care about the engineering behind a product: understanding its design, debugging difficult behavior, and improving it based on actual use.
 
 ## TECH STACK
 
@@ -37,7 +37,7 @@ I prefer building software that solves real problems and remains useful after it
 |---|---|
 | Primary language | **Go** |
 | Also use | Python |
-| Backend | HTTP APIs, services, concurrency, automation |
+| Backend | HTTP APIs, services, concurrency, background workers |
 | Databases | SQL, SQLite / libSQL / Turso, PostgreSQL |
 | Application types | Backend services, CLI tools, desktop software |
 | AI | Gemini API, embeddings, lightweight RAG |
@@ -52,9 +52,7 @@ I prefer building software that solves real problems and remains useful after it
 ### Process Detective
 **Go · giu · gopsutil · Windows Desktop**
 
-A lightweight Windows-first desktop system monitor for exploring running processes, CPU and memory usage, and parent-child relationships. Linux support is planned.
-
-The goal is to understand what is happening on my own machine through a focused, responsive tool.
+**Core idea:** A lightweight Windows-first desktop system monitor for inspecting running processes, CPU and memory usage, and parent-child relationships. Linux support is planned.
 
 ---
 
@@ -63,53 +61,86 @@ The goal is to understand what is happening on my own machine through a focused,
 ### [Project Jumper](https://github.com/MK-Mag/Project-Jumper)
 **Go · Cobra · Embedded Turso**
 
-A CLI launcher for saving project directories under memorable names and opening them in a configured editor.
+**Core idea:** Save project directories under memorable names and jump straight into them using a configured editor.
 
 ### [Organizer](https://github.com/MK-Mag/Orginzer)
 **Go · Gio · fsnotify**
 
-A desktop file organizer that watches selected folders and sorts files using configurable rules.
+**Core idea:** Watch selected folders and automatically sort files using configurable rules to reduce repetitive cleanup.
 
 ### [GitHub Finder](https://github.com/MK-Mag/GitHub-Finder)
-**Go · Wails · Vue**
+**Go · Wails · Vue · GitHub API**
 
-A desktop application for looking up GitHub users and exploring their repositories and programming-language information.
+**Core idea:** Look up GitHub users and explore their repositories and language information from a desktop app.
 
 ### [Wordle CLI](https://github.com/MK-Mag/Wordle_Cli_game)
-**Go · Terminal**
+**Go · Standard Library · Terminal**
 
-A terminal word-guessing game built to practice Go fundamentals and input handling.
+**Core idea:** A terminal word-guessing game built to practice Go fundamentals and game logic.
 
 ---
 
-## SELECTED NEXT PROJECTS
+## PAUSED
 
-These are planned candidates, not active work. Process Detective remains the current focus.
+### Steam Judge
+**Python · Flet · Steam Integration**
 
-### YouTube Companion
-**Go · Turso · YouTube Data API · Gemini · RAG**
+**Core idea:** A group voting idea for choosing a game to play together and launching the winner. Currently paused.
 
-Turn videos and available transcripts into a searchable research library, with summaries, comparisons, learning checks, and source-grounded AI questions.
+### Multiplayer Whiteboard
+**Go · Realtime Communication · WebSocket (planned)**
 
-### FileSense
-**Go · Turso · Embeddings · RAG**
+**Core idea:** An early shared drawing-room prototype. Development has stopped; listed for project history, not as an active commitment.
 
-A local document-intelligence tool for indexing personal files, semantic search, and answers grounded in the original documents.
+---
 
-### Bug Diary — Automated Incident Intelligence
-**Go · System Monitoring · Logs · Turso · Gemini**
+## NEXT PROJECTS — 8 SELECTED
 
-An automated debugging investigator that captures crashes, errors, logs, and environment context; correlates recurring incidents; and uses AI to investigate likely causes and connect failures to previous evidence and fixes.
+Four main projects, followed by four additional ideas selected from the wider project list. All remain planned; Process Detective is the only active build.
 
-### Release Radar
-**Go · GitHub API · Background Workers · Turso · Gemini**
+### Main picks
 
-Track software and dependency releases, explain relevant changes, and flag possible breaking changes based on the tools and projects I follow.
+#### YouTube Companion
+**Go · Turso · YouTube Data API · Gemini · Embeddings/RAG**
 
-### Device Sync Hub
-**Go · Backend APIs · Data Synchronization**
+**Core idea:** Turn videos and available transcripts into a searchable research library. Search concepts across videos, compare explanations, generate learning checks, and ask questions grounded in source passages and timestamps.
 
-A personal backend for syncing selected data, events, and device status across Windows, Linux, and future Raspberry Pi devices. Planned for when I have more than one device.
+#### FileSense
+**Go · Turso · Document Parsers · Vector Search · RAG**
+
+**Core idea:** Index personal documents and make the growing collection searchable by meaning, with answers linked back to the exact source passages.
+
+#### Bug Diary — Automated Incident Intelligence
+**Go · Turso · Background Workers · OS Monitoring · Gemini**
+
+**Core idea:** Automatically collect selected application errors, crashes, logs, and environment context; group recurring incidents; and investigate likely root causes using previous evidence and fixes.
+
+#### Release Radar
+**Go · Turso · GitHub Releases API · Background Workers · Gemini**
+
+**Core idea:** Watch software and dependencies I actually use, explain important releases, and flag possible breaking changes before I upgrade.
+
+### Four more from the idea pool
+
+#### Where Space Went
+**Go · Filesystem APIs · Turso · CLI**
+
+**Core idea:** Track disk usage across scans, identify unusually large or fast-growing folders, and explain where storage is disappearing over time.
+
+#### Command Ghost
+**Go · Shell History · Fuzzy Search · Turso · CLI**
+
+**Core idea:** Recover commands from shell history using partial phrases and context, even when I cannot remember the exact syntax.
+
+#### DB Benchmark Lab
+**Go · Turso · SQLite · PostgreSQL · Benchmarking**
+
+**Core idea:** Run repeatable database workloads, compare query and concurrency behavior, and keep historical results to understand performance trade-offs.
+
+#### MockDock
+**Go · net/http · Turso · CLI**
+
+**Core idea:** Create reusable mock HTTP endpoints with configurable responses, latency, and request inspection for testing software against unreliable or unavailable services.
 
 ---
 
