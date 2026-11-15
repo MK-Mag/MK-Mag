@@ -1,112 +1,123 @@
 # MK-Mag Projects
 
-The single source of truth for my software projects: completed work, the current project, accepted next projects, and ideas that may be worth building.
+The canonical inventory of my software projects. Every project showcased in the profile README must be listed here.
 
 > **Project standard:** Every project must solve a real problem, give me a compelling reason to reopen and use it months after completion, be distinctive rather than generic, teach meaningful engineering, and have room to grow through real use. I prefer lasting products over disposable portfolio demos.
 
 ## Currently
 
 ### Process Detective
-**Stack:** Go, giu, gopsutil  
-A lightweight Windows-first desktop system monitor for exploring running processes, CPU and memory usage, and parent-child relationships. Linux support is planned.
+**Core idea:** A lightweight Windows-first desktop system monitor that helps me inspect running processes, CPU and memory usage, and parent-child relationships. The goal is to understand what is happening on my own machine through a focused, responsive tool. Linux support is planned.  
+**Tools:** Go, giu (Dear ImGui), gopsutil.
 
 ## Complete
 
 ### Project Jumper
-**Stack:** Go, Cobra, embedded Turso  
-A CLI launcher for saving named project directories and opening them in a configured editor.  
-Repository: https://github.com/MK-Mag/Project-Jumper
+**Core idea:** A personal CLI launcher for saving project directories under memorable names and opening them in a configured editor, so I can jump between projects without repeatedly navigating folders.  
+**Tools:** Go, Cobra, embedded Turso/libSQL.  
+**Repository:** https://github.com/MK-Mag/Project-Jumper
 
 ### Organizer
-**Stack:** Go, Gio, fsnotify  
-A desktop file organizer that watches selected folders and sorts files using configurable rules.  
-Repository: https://github.com/MK-Mag/Orginzer
+**Core idea:** A desktop file organizer that watches selected folders and automatically sorts files using configurable rules, reducing repetitive manual cleanup.  
+**Tools:** Go, Gio, fsnotify.  
+**Repository:** https://github.com/MK-Mag/Orginzer
 
 ### GitHub Finder
-**Stack:** Go, Wails, Vue  
-A desktop app for looking up GitHub users and exploring their repositories and language information.  
-Repository: https://github.com/MK-Mag/GitHub-Finder
+**Core idea:** A desktop application for looking up GitHub users and exploring their repositories and programming-language information without manually browsing multiple profile pages.  
+**Tools:** Go, Wails, Vue, GitHub API.  
+**Repository:** https://github.com/MK-Mag/GitHub-Finder
 
 ### Wordle CLI
-**Stack:** Go, terminal  
-A terminal word-guessing game built to practice Go fundamentals.  
-Repository: https://github.com/MK-Mag/Wordle_Cli_game
+**Core idea:** A terminal word-guessing game built as a compact way to practice Go fundamentals, input handling, and game logic.  
+**Tools:** Go, standard library, terminal UI.  
+**Repository:** https://github.com/MK-Mag/Wordle_Cli_game
 
 ## Next
 
-These projects are accepted candidates for after Process Detective. They are not active yet; the order can change based on real needs and available hardware.
+These four are the main planned projects after Process Detective. They are accepted candidates, not parallel active work.
 
 ### YouTube Companion
-**Stack direction:** Go, Turso, YouTube Data API, Gemini API, embeddings, lightweight RAG  
-Turn videos and available transcripts into a searchable research library. Support summaries, topic extraction, source-grounded questions, comparisons across videos, and learning checks. Transcript availability and API terms will shape the implementation.
+**Core idea:** Turn videos and available transcripts into a searchable research library. Find concepts across videos, compare explanations, generate summaries and learning checks, and ask questions with answers grounded in source passages and timestamps.  
+**Tools:** Go, Turso, YouTube Data API, Gemini API, embeddings, vector search, lightweight RAG.
 
 ### FileSense
-**Stack direction:** Go, Turso, document parsers, embeddings, lightweight RAG  
-A local document-intelligence tool that indexes personal files, supports semantic search, and answers questions with references to source documents. The focus is useful retrieval across a growing file collection, not a generic chatbot.
+**Core idea:** A local document-intelligence system that indexes personal files, supports semantic search, answers questions across documents, and points back to the exact source passages. Its value should increase as the document collection grows.  
+**Tools:** Go, Turso, PDF/DOCX/TXT parsers, embeddings, vector search, full-text search, lightweight RAG.
 
 ### Bug Diary — Automated Debugging & Incident Intelligence
-**Stack direction:** Go, background services, OS/process monitoring, structured logs, Turso, Gemini API  
-An automated incident investigator rather than a manual bug journal. It should monitor selected applications or processes, capture crashes/errors/logs and relevant environment/project context, normalize and deduplicate incidents, correlate recurring failures, and use AI to explain likely causes and connect new incidents to previous evidence and fixes. The user should not need to manually write an issue every time something fails. Privacy, user-controlled capture scope, and local-first storage are important.
+**Core idea:** An automated incident investigator, not a manual bug journal. It monitors user-selected applications or processes, captures available crashes/errors/logs and environment context, groups duplicate incidents, correlates recurring failures, and uses AI to suggest likely causes linked to previous evidence and fixes. Capture must be scoped and privacy-conscious; platform-specific crash collection should be implemented realistically rather than assumed to work universally.  
+**Tools:** Go, background workers, OS/process monitoring, structured log ingestion, Turso, Gemini API.
 
 ### Release Radar
-**Stack direction:** Go, GitHub Releases API, scheduled workers, Turso, Gemini API  
-Monitor releases and changelogs for selected software and dependencies. Highlight changes relevant to installed tools or project dependencies, summarize them, and flag possible breaking changes with links to original release notes.
-
-### Device Sync Hub
-**Stack direction:** Go, HTTP APIs, Turso/libSQL or another suitable storage layer  
-A personal device backend for exchanging and synchronizing selected data, events, and status across Windows, Linux, and future Raspberry Pi devices. Deferred until more than one device is available.
+**Core idea:** Follow the software and dependencies I actually use. Track releases and changelogs, identify changes relevant to my projects, summarize them, and flag possible breaking changes with links to the original release notes.  
+**Tools:** Go, GitHub Releases API, official changelog feeds, scheduled workers, Turso, Gemini API.
 
 ## Maybe
 
-Ideas worth keeping visible, but not commitments. Each must pass the project standard before being promoted to Next.
+These are retained ideas, not commitments. The four marked in the profile README are simply a rotating showcase from this list.
 
 ### Where Space Went
-**Direction:** Go, filesystem, CLI  
-A disk-usage analyzer that makes it easy to discover where storage space is being used and which folders are responsible.
+**Core idea:** A disk-usage investigator that explains where storage is going, highlights unusually large or fast-growing directories, and helps compare scans over time instead of only showing a one-time folder-size list.  
+**Tools:** Go, filesystem APIs, SQLite/Turso, CLI or lightweight desktop UI.
 
 ### Command Ghost
-**Direction:** Go, CLI, shell history  
-A fast command-history search and recovery tool for finding commands when the exact syntax has been forgotten.
+**Core idea:** Search and recover commands from shell history using fuzzy matching and context, so I can find a command even when I remember only part of what it did.  
+**Tools:** Go, shell-history parsers, SQLite/Turso, fuzzy search, CLI.
 
 ### Webhook Replay Engine
-**Direction:** Go, HTTP, PostgreSQL or Turso evaluation  
-A tool for capturing webhook requests, inspecting delivery history, and replaying events to help debug integrations. Its scope and storage choice should be driven by actual usage and write patterns.
+**Core idea:** Capture incoming webhook deliveries, inspect headers and payloads, preserve delivery history, and replay selected events against a development endpoint to debug integrations.  
+**Tools:** Go, HTTP server, PostgreSQL or Turso (choose after workload testing), background workers, request inspection.
 
 ### DB Benchmark Lab
-**Direction:** Go, databases, benchmarking  
-A repeatable environment for comparing database behavior under clearly defined workloads and understanding performance trade-offs.
+**Core idea:** A repeatable benchmark workbench for running comparable database workloads, recording results, and explaining trade-offs across query patterns, concurrency, and storage configurations.  
+**Tools:** Go, database drivers, SQL, Turso, SQLite, PostgreSQL, benchmark/reporting utilities.
 
 ### Name Goblin
-**Direction:** Go, naming and text tooling  
-A playful utility for generating, organizing, and evaluating names for projects or other things where naming is genuinely useful. Scope and lasting use still need validation.
+**Core idea:** A playful naming workbench that generates candidate names, checks them against chosen constraints, stores shortlists, and helps compare names for projects or tools rather than returning an endless random word list.  
+**Tools:** Go, text-processing libraries, optional naming APIs, Turso for saved candidates and history.
 
 ### MockDock
-**Direction:** Go, HTTP, developer tooling  
-A configurable local mock HTTP server with endpoints, response bodies/status codes, artificial latency, and request inspection. It must prove useful in actual testing workflows rather than becoming another generic mock server.
+**Core idea:** A configurable local mock HTTP server with named endpoints, response bodies and status codes, artificial latency, request inspection, and reusable scenarios for testing software that depends on external services.  
+**Tools:** Go, net/http, Turso or local SQLite for saved configurations and request history, CLI.
 
 ### Repo Archaeologist
-**Direction:** Go, Git, repository analysis  
-Explore how a repository evolved by connecting its structure, commits, and changes into an understandable history.
+**Core idea:** Explore how a repository evolved by connecting commits, file changes, dependencies, and structural shifts into a navigable explanation of why the codebase looks the way it does.  
+**Tools:** Go, Git plumbing/CLI, repository parsers, Turso for indexed history, optional embeddings.
 
 ### Command Vault
-**Direction:** Go, CLI  
-A searchable personal collection of useful terminal commands and snippets. Needs a distinctive workflow beyond basic bookmarking.
+**Core idea:** A searchable command and workflow library that stores not just snippets but when to use them, required context, safe examples, and the result of running them.  
+**Tools:** Go, CLI, shell integration, Turso, full-text search.
 
 ### Clipboard Memory
-**Direction:** Desktop/system utility  
-Search previously copied text and recover useful clipboard history. Privacy and sensitive-data controls would be essential.
+**Core idea:** Search and recover previously copied text across sessions with explicit exclusions, expiration, and sensitive-data controls.  
+**Tools:** Go, Windows clipboard APIs, background service, Turso/local encrypted storage.
 
 ### Memory Palace
-**Direction:** Knowledge retrieval  
-A personal knowledge organization and retrieval concept. It needs a clearer unique use case than a generic notes app.
+**Core idea:** A personal knowledge-retrieval system that connects saved concepts and references by meaning and relationships, with a clear focus to be defined before implementation.  
+**Tools:** Go, Turso, full-text search, embeddings/vector search.
 
 ### Commit Pet
-**Direction:** Git integration, playful desktop utility  
-A small companion that reacts to repository activity. It needs a meaningful long-term loop beyond a novelty animation.
+**Core idea:** A small desktop companion that reacts to meaningful repository activity and turns long-term maintenance into a playful feedback loop, without reducing it to a generic commit counter.  
+**Tools:** Go, Git hooks or repository polling, desktop UI, Turso for activity history.
 
 ### Dead Drop
-**Direction:** To be defined  
-A retained concept whose concrete problem and product behavior still need to be worked out.
+**Core idea:** A private, time-delayed handoff for notes or small files between my own devices or future self, with expiry and retrieval rules. The exact product scope still needs validation.  
+**Tools:** Go, HTTP API, Turso, background expiry workers, optional client-side encryption.
+
+### Device Sync Hub
+**Core idea:** A personal backend for exchanging and synchronizing selected data, events, and device status across Windows, Linux, and future Raspberry Pi devices. It becomes useful once more than one device is available.  
+**Tools:** Go, HTTP APIs, Turso/libSQL, synchronization workers, device identity and conflict-resolution logic.
+
+## Paused
+
+### Steam Judge
+**Core idea:** A group game-voting concept where friends vote on which game to play and the winner can be launched through Steam. It is paused and is not part of the current build plan.  
+**Tools:** Python, Flet, Steam integration (planned).
+
+### Multiplayer Whiteboard
+**Core idea:** An early collaborative drawing prototype exploring shared rooms and real-time updates between users. Work has stopped; this is kept here for project-history completeness, not as a planned restart.  
+**Tools:** Go, WebSocket/realtime communication, frontend prototype.  
+**Repository:** https://github.com/MK-Mag/Multiplayer-WhiteBored
 
 ---
 
@@ -117,4 +128,4 @@ A retained concept whose concrete problem and product behavior still need to be 
 - New ideas must pass the five project tests: utility, long-term use, originality, engineering depth, and growth.
 - Prefer real integrations and automation where they make the product more useful.
 - AI must perform a concrete job (retrieval, classification, diagnosis, extraction, or decision support), not exist just to add an AI label.
-- Keep this file as the source of truth. Any project showcased in the profile README must also be listed here.
+- This file is the source of truth. Any project showcased in the profile README must also be listed here.
