@@ -89,22 +89,12 @@ A group voting app for choosing a game to play together and launching the winner
 
 ## PROJECT IDEAS
 
-These are the five larger ideas I especially want to keep in view. They are not a fixed development order, and I haven't committed to which one comes first.
+These are eight ideas I especially want to keep in view. They are not a fixed development order, and I haven't committed to which one comes first.
 
 ### Personal Cloud
 **Go · HTTP APIs · Storage · Synchronization**
 
 A personal cloud for managing and accessing my own files and data across devices, with control over where everything is stored.
-
-### AI Video Editor
-**Python · FFmpeg · AI APIs · Media Processing**
-
-An AI-assisted video editing tool that helps turn raw footage into edited videos through practical editing workflows rather than just generating clips.
-
-### Developer Portfolio
-**Web · GitHub Integration · Project Showcase**
-
-A proper home for my work: projects, technical progress, experiments, and the things I'm learning as a developer.
 
 ### Forge CLI
 **Go · Cobra · CLI Tooling**
@@ -116,13 +106,23 @@ A command-line project generator for creating and managing Go projects with a co
 
 An assistant that can search my own files and sources, retrieve relevant information, and answer with references instead of relying only on general model knowledge.
 
+### Bug Diary — Automated Debugging & Incident Intelligence
+**Go · Background Workers · OS Monitoring · Turso · Gemini API**
+
+An automated investigator for software failures. It monitors selected applications, captures available errors and logs, groups recurring incidents, and helps identify likely causes using previous evidence and fixes.
+
+### YouTube Companion
+**Go · Turso · YouTube Data API · Gemini API · Embeddings**
+
+A research and learning companion for videos. It makes transcripts searchable, helps find concepts across videos, compares explanations, and answers questions with references to original passages and timestamps.
+
 ### Three smaller ideas
 
 - **Command Ghost** — search shell history and recover commands from partial words or remembered context.
 - **Where Space Went** — compare disk-usage scans and find folders that are consuming or rapidly growing storage.
 - **Name Goblin** — generate, filter, save, and compare name ideas using constraints and shortlists.
 
-The full list—including other software ideas and the technical experiment—is in [MK-Mag Projects](https://github.com/MK-Mag/MK-Mag/blob/main/MK-Mag-Projects.md).
+The full list—including the other software ideas—is in [MK-Mag Projects](https://github.com/MK-Mag/MK-Mag/blob/main/MK-Mag-Projects.md).
 
 ---
 
