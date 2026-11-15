@@ -20,7 +20,7 @@
   ·
   <a href="https://github.com/MK-Mag?tab=repositories">Repositories</a>
   ·
-  <a href="https://github.com/MK-Mag/MK-Mag/blob/main/MK-Mag-Projects.md">All Projects</a>
+  <a href="https://github.com/MK-Mag/MK-Mag/blob/main/MK-Mag-Projects.md">All Projects & Ideas</a>
 </p>
 
 ---
@@ -29,7 +29,7 @@
 
 I'm focused on **Go backend development** and enjoy exploring systems, databases, networking, automation, and practical uses of AI.
 
-I like software that has a purpose beyond being a demo. Some of my projects are small tools I use myself; others are ideas for solving problems I find interesting. I enjoy the process of figuring out how things work, building them, and making them better.
+I like software that has a purpose beyond being a demo. Some projects are tools I want to use in everyday life; others are bigger ideas that I want to explore over time. I also enjoy experimenting with technologies and building small prototypes along the way.
 
 ## WHAT I WORK WITH
 
@@ -83,68 +83,66 @@ A terminal version of Wordle, built as a compact project for practicing Go funda
 ### Steam Judge
 **Python · Flet · Steam Integration**
 
-A group voting idea for choosing a game to play together and launching the winner. It's on hold for now.
+A group voting app for choosing a game to play together and launching the winner through Steam. It's paused, not abandoned; I still intend to return to it.
 
 ### Multiplayer Whiteboard
-**Go · Realtime Communication · WebSocket**
+**Go · WebSocket · Realtime Communication**
 
-An early collaborative drawing-room project. I stopped working on it, but keep it here as part of my project history.
-
----
-
-## PROJECTS I'D LIKE TO BUILD
-
-I haven't picked what comes after Process Detective yet. These are the projects I keep coming back to, each for a different reason.
-
-### YouTube Companion
-**Go · Turso · YouTube Data API · Gemini · Embeddings/RAG**
-
-A research companion for videos: searchable transcripts, concept discovery across videos, comparisons, learning checks, and answers linked to their original sources.
-
-### FileSense
-**Go · Turso · Document Parsers · Vector Search · RAG**
-
-A local document library that understands the contents of my files, lets me search by meaning, and answers questions with references to the original passages.
-
-### Bug Diary — Automated Incident Intelligence
-**Go · Turso · Background Workers · OS Monitoring · Gemini**
-
-An automated investigator for software failures. It collects selected application errors, crashes, logs, and environment details, finds recurring incidents, and helps investigate likely causes using previous evidence.
-
-### Release Radar
-**Go · Turso · GitHub Releases API · Background Workers · Gemini**
-
-A release tracker for the software and dependencies I actually use, highlighting changes that matter and possible breaking changes before I upgrade.
-
-### Device Sync Hub
-**Go · Turso · HTTP APIs · Synchronization**
-
-A personal backend for keeping selected data, events, and device status in sync across my computers and, eventually, Raspberry Pi devices.
+An early collaborative drawing-room prototype. Development is currently stopped, but it's kept here as part of my project history.
 
 ---
 
-## OTHER IDEAS
+## PROJECT IDEAS
 
-A few more concepts I'm interested in exploring:
+These are the five larger ideas I especially want to keep in view. They are not a fixed development order, and I haven't committed to which one comes first.
 
-- **StateTrail** — trace configuration and state changes over time to understand what happened before a system problem.
-- **Where Space Went** — investigate disk usage and spot folders that keep growing.
-- **Command Ghost** — find old terminal commands from fragments and context.
-- **Webhook Replay Engine** — capture and replay webhook deliveries while debugging integrations.
-- **DB Benchmark Lab** — compare database behavior under repeatable workloads.
-- **Name Goblin** — generate and organize useful names with constraints and saved shortlists.
-- **MockDock** — run configurable mock HTTP endpoints for local testing.
-- **Repo Archaeologist** — explore how a codebase changed through its Git history.
-- **Command Vault** — keep a searchable library of commands and workflows.
-- **Clipboard Memory** — search clipboard history with privacy controls.
-- **Memory Palace** — connect and retrieve personal knowledge by meaning.
-- **Commit Pet** — a desktop companion that reacts to meaningful repository activity.
-- **Dead Drop** — leave private notes or files for a future time or another device.
+### Personal Cloud
+**Go · HTTP APIs · Storage · Synchronization**
+
+A personal cloud for managing and accessing my own files and data across devices, with control over where everything is stored.
+
+### AI Video Editor
+**Python · FFmpeg · AI APIs · Media Processing**
+
+An AI-assisted video editing tool that helps turn raw footage into edited videos through practical editing workflows rather than just generating clips.
+
+### Developer Portfolio
+**Web · GitHub Integration · Project Showcase**
+
+A proper home for my work: projects, technical progress, experiments, and the things I'm learning as a developer.
+
+### Forge CLI
+**Go · Cobra · CLI Tooling**
+
+A command-line project generator for creating and managing Go projects with a consistent structure and setup.
+
+### RAG AI Assistant
+**Go · Turso · Embeddings · Vector Search · RAG**
+
+An assistant that can search my own files and sources, retrieve relevant information, and answer with references instead of relying only on general model knowledge.
+
+### Three smaller ideas
+
+- **Command Ghost** — search shell history and recover commands from partial words or remembered context.
+- **Where Space Went** — compare disk-usage scans and find folders that are consuming or rapidly growing storage.
+- **Name Goblin** — generate, filter, save, and compare name ideas using constraints and shortlists.
+
+The full list—including other software ideas and experimental builds—is in [MK-Mag Projects](https://github.com/MK-Mag/MK-Mag/blob/main/MK-Mag-Projects.md).
+
+---
+
+## EXPERIMENTS
+
+I also keep room for smaller technical experiments and hardware projects. These are explorations, not promises of finished products.
+
+- **Raspberry Pi Family Voice Assistant** — an offline Arabic/English voice assistant for home use, planned around a Raspberry Pi.
+- **Local AI Coding Server** — a future local inference server for running coding and reasoning models after a hardware upgrade.
+- **Stream Deck / Macro Pad** — a programmable physical button pad for launching commands and automating frequent actions.
 
 ---
 
 <p align="center">
-  <a href="https://github.com/MK-Mag/MK-Mag/blob/main/MK-Mag-Projects.md">Explore the full project list</a>
+  <a href="https://github.com/MK-Mag/MK-Mag/blob/main/MK-Mag-Projects.md">Explore all projects, ideas, and experiments</a>
   <br/><br/>
   <strong>BUILD · DEBUG · UNDERSTAND · IMPROVE</strong><br/>
   <sub>Go Backend Development · Systems · Practical Software</sub>
