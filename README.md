@@ -6,7 +6,7 @@
 
 <p align="center">
   <strong>Go Backend Developer · Systems · Practical Software</strong><br/>
-  <sub>Building useful software, learning how things work, and improving products I actually use.</sub>
+  <sub>I enjoy building useful software and understanding what happens behind the scenes.</sub>
 </p>
 
 <p align="center">
@@ -20,30 +20,28 @@
   ·
   <a href="https://github.com/MK-Mag?tab=repositories">Repositories</a>
   ·
-  <a href="https://github.com/MK-Mag/MK-Mag/blob/main/MK-Mag-Projects.md">Complete Project List</a>
+  <a href="https://github.com/MK-Mag/MK-Mag/blob/main/MK-Mag-Projects.md">All Projects</a>
 </p>
 
 ---
 
-## ABOUT
+## A LITTLE ABOUT ME
 
-I'm focused on **Go backend development**, with interests in systems, databases, networking, automation, and practical AI.
+I'm focused on **Go backend development** and enjoy exploring systems, databases, networking, automation, and practical uses of AI.
 
-I prefer building software that solves real problems and remains useful after its first release. I care about the engineering behind a product: understanding its design, debugging difficult behavior, and improving it based on actual use.
+I like software that has a purpose beyond being a demo. Some of my projects are small tools I use myself; others are ideas for solving problems I find interesting. I enjoy the process of figuring out how things work, building them, and making them better.
 
-## TECH STACK
+## WHAT I WORK WITH
 
-| Area | Tools and interests |
+| Area | Tools and technologies |
 |---|---|
-| Primary language | **Go** |
+| Main language | Go |
 | Also use | Python |
 | Backend | HTTP APIs, services, concurrency, background workers |
-| Databases | SQL, SQLite / libSQL / Turso, PostgreSQL |
-| Application types | Backend services, CLI tools, desktop software |
-| AI | Gemini API, embeddings, lightweight RAG |
-| Workflow | Git, GitHub, Windows, Linux |
-
-<sub>This reflects my current tools and learning path, not expert-level proficiency in every technology.</sub>
+| Databases | SQL, SQLite, libSQL / Turso, PostgreSQL |
+| Software | CLI tools, desktop applications, backend services |
+| AI | Gemini API, embeddings, retrieval-augmented generation |
+| Environment | Windows, Linux, Git, GitHub |
 
 ---
 
@@ -52,7 +50,7 @@ I prefer building software that solves real problems and remains useful after it
 ### Process Detective
 **Go · giu · gopsutil · Windows Desktop**
 
-**Core idea:** A lightweight Windows-first desktop system monitor for inspecting running processes, CPU and memory usage, and parent-child relationships. Linux support is planned.
+A lightweight Windows-first system monitor for exploring running processes, CPU and memory usage, and parent-child relationships. I want it to make it easier to understand what's happening on my own machine, without getting in the way.
 
 ---
 
@@ -61,106 +59,93 @@ I prefer building software that solves real problems and remains useful after it
 ### [Project Jumper](https://github.com/MK-Mag/Project-Jumper)
 **Go · Cobra · Embedded Turso**
 
-**Core idea:** Save project directories under memorable names and jump straight into them using a configured editor.
+A small CLI launcher that lets me save project folders under memorable names and open them directly in my editor.
 
 ### [Organizer](https://github.com/MK-Mag/Orginzer)
 **Go · Gio · fsnotify**
 
-**Core idea:** Watch selected folders and automatically sort files using configurable rules to reduce repetitive cleanup.
+A desktop file organizer that watches selected folders and sorts files automatically using rules I define.
 
 ### [GitHub Finder](https://github.com/MK-Mag/GitHub-Finder)
 **Go · Wails · Vue · GitHub API**
 
-**Core idea:** Look up GitHub users and explore their repositories and language information from a desktop app.
+A desktop app for looking up GitHub users and exploring their repositories and programming-language information.
 
 ### [Wordle CLI](https://github.com/MK-Mag/Wordle_Cli_game)
 **Go · Standard Library · Terminal**
 
-**Core idea:** A terminal word-guessing game built to practice Go fundamentals and game logic.
+A terminal version of Wordle, built as a compact project for practicing Go fundamentals and game logic.
 
 ---
 
-## PAUSED
+## PAUSED PROJECTS
 
 ### Steam Judge
 **Python · Flet · Steam Integration**
 
-**Core idea:** A group voting idea for choosing a game to play together and launching the winner. Currently paused.
+A group voting idea for choosing a game to play together and launching the winner. It's on hold for now.
 
 ### Multiplayer Whiteboard
-**Go · Realtime Communication · WebSocket (planned)**
+**Go · Realtime Communication · WebSocket**
 
-**Core idea:** An early shared drawing-room prototype. Development has stopped; listed for project history, not as an active commitment.
+An early collaborative drawing-room project. I stopped working on it, but keep it here as part of my project history.
 
 ---
 
-## NEXT PROJECTS — 8 SELECTED
+## PROJECTS I'D LIKE TO BUILD
 
-Four main projects, followed by four additional ideas selected from the wider project list. All remain planned; Process Detective is the only active build.
+I haven't picked what comes after Process Detective yet. These are the projects I keep coming back to, each for a different reason.
 
-### Main picks
-
-#### YouTube Companion
+### YouTube Companion
 **Go · Turso · YouTube Data API · Gemini · Embeddings/RAG**
 
-**Core idea:** Turn videos and available transcripts into a searchable research library. Search concepts across videos, compare explanations, generate learning checks, and ask questions grounded in source passages and timestamps.
+A research companion for videos: searchable transcripts, concept discovery across videos, comparisons, learning checks, and answers linked to their original sources.
 
-#### FileSense
+### FileSense
 **Go · Turso · Document Parsers · Vector Search · RAG**
 
-**Core idea:** Index personal documents and make the growing collection searchable by meaning, with answers linked back to the exact source passages.
+A local document library that understands the contents of my files, lets me search by meaning, and answers questions with references to the original passages.
 
-#### Bug Diary — Automated Incident Intelligence
+### Bug Diary — Automated Incident Intelligence
 **Go · Turso · Background Workers · OS Monitoring · Gemini**
 
-**Core idea:** Automatically collect selected application errors, crashes, logs, and environment context; group recurring incidents; and investigate likely root causes using previous evidence and fixes.
+An automated investigator for software failures. It collects selected application errors, crashes, logs, and environment details, finds recurring incidents, and helps investigate likely causes using previous evidence.
 
-#### Release Radar
+### Release Radar
 **Go · Turso · GitHub Releases API · Background Workers · Gemini**
 
-**Core idea:** Watch software and dependencies I actually use, explain important releases, and flag possible breaking changes before I upgrade.
+A release tracker for the software and dependencies I actually use, highlighting changes that matter and possible breaking changes before I upgrade.
 
-### Four more from the idea pool
+### Device Sync Hub
+**Go · Turso · HTTP APIs · Synchronization**
 
-#### Where Space Went
-**Go · Filesystem APIs · Turso · CLI**
-
-**Core idea:** Track disk usage across scans, identify unusually large or fast-growing folders, and explain where storage is disappearing over time.
-
-#### Command Ghost
-**Go · Shell History · Fuzzy Search · Turso · CLI**
-
-**Core idea:** Recover commands from shell history using partial phrases and context, even when I cannot remember the exact syntax.
-
-#### DB Benchmark Lab
-**Go · Turso · SQLite · PostgreSQL · Benchmarking**
-
-**Core idea:** Run repeatable database workloads, compare query and concurrency behavior, and keep historical results to understand performance trade-offs.
-
-#### MockDock
-**Go · net/http · Turso · CLI**
-
-**Core idea:** Create reusable mock HTTP endpoints with configurable responses, latency, and request inspection for testing software against unreliable or unavailable services.
+A personal backend for keeping selected data, events, and device status in sync across my computers and, eventually, Raspberry Pi devices.
 
 ---
 
-## PROJECT STANDARD
+## OTHER IDEAS
 
-Every project should pass five tests:
+A few more concepts I'm interested in exploring:
 
-1. **Utility** — Does it solve a real problem?
-2. **Long-term use** — Why would I open it again six months after finishing it?
-3. **Originality** — Is there a distinctive idea beyond generic CRUD or an AI wrapper?
-4. **Engineering** — Will it teach meaningful software or systems concepts?
-5. **Growth** — Can real use naturally lead to worthwhile improvements?
-
-I would rather build fewer products that stay useful than collect disposable demos.
+- **StateTrail** — trace configuration and state changes over time to understand what happened before a system problem.
+- **Where Space Went** — investigate disk usage and spot folders that keep growing.
+- **Command Ghost** — find old terminal commands from fragments and context.
+- **Webhook Replay Engine** — capture and replay webhook deliveries while debugging integrations.
+- **DB Benchmark Lab** — compare database behavior under repeatable workloads.
+- **Name Goblin** — generate and organize useful names with constraints and saved shortlists.
+- **MockDock** — run configurable mock HTTP endpoints for local testing.
+- **Repo Archaeologist** — explore how a codebase changed through its Git history.
+- **Command Vault** — keep a searchable library of commands and workflows.
+- **Clipboard Memory** — search clipboard history with privacy controls.
+- **Memory Palace** — connect and retrieve personal knowledge by meaning.
+- **Commit Pet** — a desktop companion that reacts to meaningful repository activity.
+- **Dead Drop** — leave private notes or files for a future time or another device.
 
 ---
 
 <p align="center">
-  <a href="https://github.com/MK-Mag/MK-Mag/blob/main/MK-Mag-Projects.md">View the complete project inventory and ideas</a>
+  <a href="https://github.com/MK-Mag/MK-Mag/blob/main/MK-Mag-Projects.md">Explore the full project list</a>
   <br/><br/>
-  <strong>BUILD → DEBUG → UNDERSTAND → IMPROVE</strong><br/>
+  <strong>BUILD · DEBUG · UNDERSTAND · IMPROVE</strong><br/>
   <sub>Go Backend Development · Systems · Practical Software</sub>
 </p>
