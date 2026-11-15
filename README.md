@@ -85,11 +85,6 @@ A terminal version of Wordle, built as a compact project for practicing Go funda
 
 A group voting app for choosing a game to play together and launching the winner through Steam. It's paused, not abandoned; I still intend to return to it.
 
-### Multiplayer Whiteboard
-**Go · WebSocket · Realtime Communication**
-
-An early collaborative drawing-room prototype. Development is currently stopped, but it's kept here as part of my project history.
-
 ---
 
 ## PROJECT IDEAS
@@ -127,17 +122,16 @@ An assistant that can search my own files and sources, retrieve relevant informa
 - **Where Space Went** — compare disk-usage scans and find folders that are consuming or rapidly growing storage.
 - **Name Goblin** — generate, filter, save, and compare name ideas using constraints and shortlists.
 
-The full list—including other software ideas and experimental builds—is in [MK-Mag Projects](https://github.com/MK-Mag/MK-Mag/blob/main/MK-Mag-Projects.md).
+The full list—including other software ideas and the technical experiment—is in [MK-Mag Projects](https://github.com/MK-Mag/MK-Mag/blob/main/MK-Mag-Projects.md).
 
 ---
 
 ## EXPERIMENTS
 
-I also keep room for smaller technical experiments and hardware projects. These are explorations, not promises of finished products.
+### Multiplayer Whiteboard
+**Go · WebSocket · Realtime Communication**
 
-- **Raspberry Pi Family Voice Assistant** — an offline Arabic/English voice assistant for home use, planned around a Raspberry Pi.
-- **Local AI Coding Server** — a future local inference server for running coding and reasoning models after a hardware upgrade.
-- **Stream Deck / Macro Pad** — a programmable physical button pad for launching commands and automating frequent actions.
+An early collaborative drawing-room prototype. Development is currently stopped, but I keep it as part of my experiments and project history.
 
 ---
 
