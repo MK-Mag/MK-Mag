@@ -1,6 +1,6 @@
 # MK-Mag Projects
 
-A record of the software I've completed, the projects I'm working on, the ideas I want to keep, and the experiments I'm interested in trying. Nothing is removed from this list unless I explicitly decide to remove it.
+A record of the software I've completed, the projects I'm working on, the ideas I want to keep, and the experiments I've tried. Nothing is removed from this list unless I explicitly decide to remove it.
 
 ## Currently Building
 
@@ -35,11 +35,6 @@ A record of the software I've completed, the projects I'm working on, the ideas 
 ### Steam Judge
 **Idea:** A group game-voting application where friends vote on which game to play and the winner can be launched through Steam. This project is paused for now, but I intend to continue it later. It is not canceled.  
 **Tools:** Python, Flet, planned Steam integration.
-
-### Multiplayer Whiteboard
-**Idea:** An early collaborative drawing prototype built around shared rooms and real-time updates. Development is stopped for now; it remains in the project history.  
-**Tools:** Go, WebSocket/realtime communication, frontend prototype.  
-**Repository:** https://github.com/MK-Mag/Multiplayer-WhiteBored
 
 ## Project Ideas
 
@@ -137,25 +132,9 @@ These ideas are all part of my project list. They are not ranked and do not impl
 **Idea:** A private, time-delayed way to leave a note or small file for another device or for myself in the future, with expiry and retrieval rules.  
 **Tools:** Go, HTTP API, Turso, background expiry workers, optional client-side encryption.
 
-### LogLens — Smart Log Explorer
-**Idea:** A tool for exploring application logs, finding patterns and recurring errors, filtering noisy output, and making it easier to understand what happened during a run.  
-**Tools:** Go, log parsers, indexing/search, CLI or desktop interface (to be decided).
-
 ## Experiments
 
-These are hardware-oriented or exploratory builds. They are kept separate from the main software project ideas because they may depend on hardware, budget, or future setup.
-
-### Raspberry Pi Family Voice Assistant
-**Idea:** A small offline-first family voice assistant with Arabic and English support. The idea is to run it on a Raspberry Pi and make common voice interactions available locally where practical.  
-**Tools:** Raspberry Pi 4 (8GB planned), microphone/speaker, speech recognition, local or hybrid language model, text-to-speech.
-
-### Local AI Coding Server
-**Idea:** A future local inference server for running coding and reasoning models, intended for use from an IDE and other tools once the PC hardware is upgraded.  
-**Tools:** Upgraded PC, local inference runtime, model serving API, coding/reasoning models.
-
-### Stream Deck / Macro Pad
-**Idea:** A programmable physical button pad for launching commands, triggering scripts, and automating frequent desktop workflows.  
-**Tools:** Microcontroller or SBC, physical buttons, firmware, Go or Python companion software.
-
-### Small Technical Experiments
-**Idea:** A place to document short technology trials, prototypes, and proof-of-concepts that are useful for learning even if they do not become standalone projects. Individual experiments can be added here as they happen.
+### Multiplayer Whiteboard
+**Idea:** An early collaborative drawing prototype built around shared rooms and real-time updates. Development is stopped for now, but it remains documented as an experiment.  
+**Tools:** Go, WebSocket/realtime communication, frontend prototype.  
+**Repository:** https://github.com/MK-Mag/Multiplayer-WhiteBored
