@@ -1,14 +1,14 @@
 # MK-Mag Projects
 
-A collection of software I've built, am building, and would like to explore.
+A record of the software I've completed, the projects I'm working on, the ideas I want to keep, and the experiments I'm interested in trying. Nothing is removed from this list unless I explicitly decide to remove it.
 
-## Currently
+## Currently Building
 
 ### Process Detective
 **Idea:** A lightweight Windows-first desktop system monitor for inspecting running processes, CPU and memory usage, and parent-child relationships. I want a clear, responsive way to understand what's happening on my own machine, with Linux support as a future step.  
 **Tools:** Go, giu (Dear ImGui), gopsutil.
 
-## Complete
+## Completed
 
 ### Project Jumper
 **Idea:** A personal CLI launcher for saving project directories under memorable names and opening them in a configured editor. It saves me from repeatedly navigating through folders to get to the projects I work on.  
@@ -30,12 +30,43 @@ A collection of software I've built, am building, and would like to explore.
 **Tools:** Go, standard library, terminal UI.  
 **Repository:** https://github.com/MK-Mag/Wordle_Cli_game
 
-## Next
+## Paused
 
-These are the projects I want to build when the time and circumstances are right. I haven't decided which one will come after Process Detective.
+### Steam Judge
+**Idea:** A group game-voting application where friends vote on which game to play and the winner can be launched through Steam. This project is paused for now, but I intend to continue it later. It is not canceled.  
+**Tools:** Python, Flet, planned Steam integration.
+
+### Multiplayer Whiteboard
+**Idea:** An early collaborative drawing prototype built around shared rooms and real-time updates. Development is stopped for now; it remains in the project history.  
+**Tools:** Go, WebSocket/realtime communication, frontend prototype.  
+**Repository:** https://github.com/MK-Mag/Multiplayer-WhiteBored
+
+## Project Ideas
+
+These ideas are all part of my project list. They are not ranked and do not imply a fixed order. Some are large personal tools, some are developer utilities, and some may evolve as I learn more.
+
+### Personal Cloud
+**Idea:** A personal cloud for managing, storing, and accessing my own files and data across devices. The goal is to have control over my data and a dependable way to reach it from my devices.  
+**Tools:** Go, HTTP APIs, file storage, authentication, synchronization, database (to be decided).
+
+### AI Video Editor
+**Idea:** An AI-assisted video editing application focused on useful editing workflows: understanding footage, helping organize clips, and assisting with editing decisions and repetitive tasks.  
+**Tools:** Python, FFmpeg, media processing, AI APIs (final stack to be decided).
+
+### Developer Portfolio
+**Idea:** A personal home for presenting my software projects, technical interests, experiments, and progress as a developer. It should feel like a real representation of my work rather than a generic template.  
+**Tools:** To be decided; GitHub integration may be useful.
+
+### Forge CLI
+**Idea:** A Go project generator and manager. The original concept includes commands such as `forge create`, `forge list`, and `forge version`, with a consistent project structure and optional interactive setup.  
+**Tools:** Go, Cobra, optional Bubble Tea TUI.
+
+### RAG AI Assistant
+**Idea:** An assistant that can work with private files and selected sources. It retrieves relevant passages before answering and should provide references to where the information came from. This is a broader assistant concept; focused tools such as FileSense and YouTube Companion explore more specific use cases.  
+**Tools:** Go, Turso, document/source ingestion, embeddings, vector search, retrieval-augmented generation, AI API.
 
 ### YouTube Companion
-**Idea:** A research companion for videos. It turns available transcripts into searchable material, helps find concepts across videos, compares explanations, creates learning checks, and answers questions with references to the original passages and timestamps.  
+**Idea:** A research and learning companion for videos. It turns available transcripts into searchable material, helps find concepts across videos, compares explanations, creates learning checks, and answers questions with references to original passages and timestamps.  
 **Tools:** Go, Turso, YouTube Data API, Gemini API, embeddings, vector search, lightweight RAG.
 
 ### FileSense
@@ -54,12 +85,8 @@ These are the projects I want to build when the time and circumstances are right
 **Idea:** A personal backend for sharing and synchronizing selected data, events, and device status across my Windows and Linux machines and, eventually, Raspberry Pi devices. This becomes more useful once I have more than one device.  
 **Tools:** Go, HTTP APIs, Turso/libSQL, synchronization workers, device identity, conflict resolution.
 
-## Maybe
-
-Interesting ideas that I haven't decided to build. Some may change shape or never leave this list.
-
 ### StateTrail
-**Idea:** A state-change investigator for a project or service. It keeps a timeline of configuration changes, versions, and important events, then helps trace what changed before a problem appeared. The interesting part is being able to reconstruct how a system reached its current state, not just collect logs.  
+**Idea:** A state-change investigator for a project or service. It keeps a timeline of configuration changes, versions, and important events, then helps trace what changed before a problem appeared. The goal is to reconstruct how a system reached its current state, not just collect logs.  
 **Tools:** Go, Turso, append-only event history, HTTP API, background workers, timeline and state-diff engine.
 
 ### Where Space Went
@@ -110,13 +137,25 @@ Interesting ideas that I haven't decided to build. Some may change shape or neve
 **Idea:** A private, time-delayed way to leave a note or small file for another device or for myself in the future, with expiry and retrieval rules.  
 **Tools:** Go, HTTP API, Turso, background expiry workers, optional client-side encryption.
 
-## Paused
+### LogLens — Smart Log Explorer
+**Idea:** A tool for exploring application logs, finding patterns and recurring errors, filtering noisy output, and making it easier to understand what happened during a run.  
+**Tools:** Go, log parsers, indexing/search, CLI or desktop interface (to be decided).
 
-### Steam Judge
-**Idea:** A group game-voting concept where friends vote on which game to play and the winner can be launched through Steam. I stopped working on it for now.  
-**Tools:** Python, Flet, planned Steam integration.
+## Experiments
 
-### Multiplayer Whiteboard
-**Idea:** An early collaborative drawing prototype built around shared rooms and real-time updates. Development has stopped.  
-**Tools:** Go, WebSocket/realtime communication, frontend prototype.  
-**Repository:** https://github.com/MK-Mag/Multiplayer-WhiteBored
+These are hardware-oriented or exploratory builds. They are kept separate from the main software project ideas because they may depend on hardware, budget, or future setup.
+
+### Raspberry Pi Family Voice Assistant
+**Idea:** A small offline-first family voice assistant with Arabic and English support. The idea is to run it on a Raspberry Pi and make common voice interactions available locally where practical.  
+**Tools:** Raspberry Pi 4 (8GB planned), microphone/speaker, speech recognition, local or hybrid language model, text-to-speech.
+
+### Local AI Coding Server
+**Idea:** A future local inference server for running coding and reasoning models, intended for use from an IDE and other tools once the PC hardware is upgraded.  
+**Tools:** Upgraded PC, local inference runtime, model serving API, coding/reasoning models.
+
+### Stream Deck / Macro Pad
+**Idea:** A programmable physical button pad for launching commands, triggering scripts, and automating frequent desktop workflows.  
+**Tools:** Microcontroller or SBC, physical buttons, firmware, Go or Python companion software.
+
+### Small Technical Experiments
+**Idea:** A place to document short technology trials, prototypes, and proof-of-concepts that are useful for learning even if they do not become standalone projects. Individual experiments can be added here as they happen.
