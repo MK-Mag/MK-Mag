@@ -129,8 +129,8 @@ These ideas are all part of my project list. They are not ranked and do not impl
 **Tools:** Go, Git hooks or repository polling, desktop UI, Turso for activity history.
 
 ### Dead Drop
-**Idea:** A private, time-delayed way to leave a note or small file for another device or for myself in the future, with expiry and retrieval rules.  
-**Tools:** Go, HTTP API, Turso, background expiry workers, optional client-side encryption.
+**Idea:** A solo-built, web-based private message and file delivery service. A user creates a text or file drop, gets a hard-to-guess share link, and sends it to someone who can retrieve the content without creating an account. Drops can expire automatically or become unavailable after a configured number of downloads; owners can also delete them manually. The first version focuses on reliable text/file delivery and a responsive web interface, with real-time notifications and advanced privacy features deferred until later.  
+**Tools:** Go, Echo, PostgreSQL, pgx, SolidJS, TypeScript, Vite, Tailwind CSS, Kobalte, REST API, local file storage, background expiry worker. Planned deployment: Docker Compose, Caddy, Oracle Cloud VPS. WebSocket and end-to-end encryption are future enhancements, not MVP requirements.
 
 ## Experiments
 
